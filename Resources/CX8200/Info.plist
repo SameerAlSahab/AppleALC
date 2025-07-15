@@ -52,6 +52,14 @@
 				<key>Path</key>
 				<string>layout80.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom CX8200 Layout for HP EliteBook 1030 G2</string>
+				<key>Id</key>
+				<integer>420</integer>
+				<key>Path</key>
+				<string>layout420.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -95,98 +103,32 @@
 				<key>Path</key>
 				<string>Platforms80.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom CX8200 Platform for HP EliteBook 1030 G2</string>
+				<key>Id</key>
+				<integer>420</integer>
+				<key>Path</key>
+				<string>Platforms420.xml.zlib</string>
+			</dict>
 		</array>
 	</dict>
-	<key>Patches</key>
+	<key>HDAConfigDefault</key>
 	<array>
 		<dict>
-			<key>Count</key>
-			<integer>1</integer>
-			<key>Find</key>
-			<data>xgYASIu/aAE=</data>
-			<key>MinKernel</key>
-			<integer>18</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>xgYBSIu/aAE=</data>
+			<key>CodecID</key>
+			<integer>0x14f12008</integer>
+			<key>LayoutID</key>
+			<integer>420</integer>
+			<key>Device</key>
+			<string>0x103C827D</string>
+			<key>Model</key>
+			<string>HP EliteBook 1030 G2 CX8200</string>
 		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>1</integer>
-			<key>Find</key>
-			<data>QcYGAEmLvCQ=</data>
-			<key>MaxKernel</key>
-			<integer>13</integer>
-			<key>MinKernel</key>
-			<integer>13</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>QcYGAUmLvCQ=</data>
-		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>1</integer>
-			<key>Find</key>
-			<data>QcYGAEiLu2g=</data>
-			<key>MinKernel</key>
-			<integer>14</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>QcYGAUiLu2g=</data>
-		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>1</integer>
-			<key>Find</key>
-			<data>QcaGQwEAAAA=</data>
-			<key>MinKernel</key>
-			<integer>13</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>QcaGQwEAAAE=</data>
-		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>2</integer>
-			<key>Find</key>
-			<data>ixnUEQ==</data>
-			<key>MinKernel</key>
-			<integer>16</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>CCDxFA==</data>
-		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>2</integer>
-			<key>Find</key>
-			<data>ihnUEQ==</data>
-			<key>MinKernel</key>
-			<integer>16</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>AAAAAA==</data>
-		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>1</integer>
-			<key>Find</key>
-			<data>a3Bzaes=</data>
-			<key>MinKernel</key>
-			<integer>14</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Provider</key>
-			<string>Wern Apfel</string>
-			<key>Replace</key>
-			<data>Y2ltaes=</data>
-		</dict>
+	</array>
+	<key>Patches</key>
+	<!-- leave as-is, already pasted -->
+	<array>
 	</array>
 	<key>Vendor</key>
 	<string>Conexant</string>
