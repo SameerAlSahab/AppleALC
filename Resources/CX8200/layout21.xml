@@ -22,7 +22,15 @@
 			<key>IntSpeaker</key>
 			<dict>
 				<key>MaximumBootBeepValue</key>
-				<integer>110</integer>
+				<integer>200</integer>
+				<key>BoostGain</key>
+				<integer>25</integer>
+				<key>SupportsMute</key>
+				<true/>
+				<key>IsMuteCapable</key>
+				<true/>
+				<key>CanBeMuted</key>
+				<true/>
 			</dict>
 			<key>LineIn</key>
 			<dict>
