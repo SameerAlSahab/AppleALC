@@ -145,6 +145,8 @@
 							<dict>
 								<key>NodeID</key>
 								<integer>23</integer>
+								<key>Boost</key>
+								<integer>6</integer>
 							</dict>
 						</array>
 					</array>
